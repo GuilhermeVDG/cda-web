@@ -1,13 +1,9 @@
+import RoutesApp from "./routes";
 
-import './App.css';
-import Header from './components/Header';
-
-function App() {
+export default function App() {
   return (
-    <div className='container'>
-      <div className='title'>CDA WEB</div>
+    <div className='App'>
+      <RoutesApp/>
     </div>
   );
 }
-
-export default App;
